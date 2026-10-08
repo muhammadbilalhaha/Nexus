@@ -1,0 +1,29 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors based on the Stockly design */
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed; /* Main purple button color */
+  --color-brand-700: #6d28d9;
+
+  --color-bg-main: #f9fafb; /* Light gray background */
+  --color-border-subtle: #e5e7eb;
+
+  /* Status colors */
+  --color-status-green-bg: #ecfdf5;
+  --color-status-green-text: #047857;
+  --color-status-orange-bg: #fff7ed;
+  --color-status-orange-text: #c2410c;
+  --color-status-red-bg: #fef2f2;
+  --color-status-red-text: #b91c1c;
+}
+
+/* Base body styles */
+body {
+  background-color: var(--color-bg-main);
+  color: #111827;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
